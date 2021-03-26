@@ -114,3 +114,28 @@ header{
     color: #fafafa;
     letter-spacing: 0.05em;
 }
+
+.contato{
+    display: flex;
+    position: absolute;
+    bottom: 10em;
+    right: 5em;
+}
+
+.contato p{
+    color: #fafafa;
+    font-family: monospace;
+    font-size: 1.2em;
+    margin-right: 1em;
+}
+
+.contato a{
+    text-decoration: none;
+    color: #FFEFBA;
+    font-size: 1.1em;
+    letter-spacing: 0.05em;    
+}
+
+.contato a:hover{
+    border-bottom: 1px solid #fafafa;
+}
