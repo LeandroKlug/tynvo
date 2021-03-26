@@ -139,3 +139,27 @@ header{
 .contato a:hover{
     border-bottom: 1px solid #fafafa;
 }
+
+@media screen and (max-width: 796px){
+    .contato{
+        display: block;
+        position: absolute;
+        bottom: 25%;
+        left: 15%;
+    }
+
+    .contato p{
+        margin-bottom: 1em;
+        font-size: 0.9em;
+        margin-right: 0;
+    }
+
+    .banner {
+        top: 30%;
+        left: 15%; 
+     }
+
+    .banner h1{
+        font-size: 2em;
+    }
+}
